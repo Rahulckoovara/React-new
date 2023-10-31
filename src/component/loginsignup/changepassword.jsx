@@ -4,7 +4,7 @@ import Validation from "./Validation";
 
 
 
-const changepassword = () => {
+const Changepassword = () => {
     const[values,setValues]=useState({ password:''});
     const[errors,setError]=useState({}) 
     function handleChange(e)
@@ -78,4 +78,4 @@ const changepassword = () => {
   );
 };
 
-export default changepassword;
+export default Changepassword;

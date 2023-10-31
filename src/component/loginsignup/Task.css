@@ -12,10 +12,17 @@
    color: #fff;
 }
 .h1-task{
-    color: rgb(102, 13, 13);
-    font: weight 1000px;
-    font-size: x-large;
-    padding-bottom: 3%;
-    text-decoration: underline;
+    color: white;
     
+    font: weight 1000px;
+   
+    padding-bottom: 3%;
+    align-items: center;
+    
+}
+.task-header{
+  
+  width: 100%;
+  background-color: #21e451;
+  justify-content: center;
 }

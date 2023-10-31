@@ -8,9 +8,9 @@ import {
 } from "react-router-dom";
 import Dashboard from './component/loginsignup/Dashboard.jsx';
 import Forgotpassword1 from './component/loginsignup/forgotpassword1.jsx';
-import Loginsignup from './component/loginsignup/loginsignup.jsx';
 import Signup from './component/loginsignup/Signup.jsx';
-
+import Loginsignup from './component/loginsignup/Loginsignup.jsx';
+import Changepassword from './component/loginsignup/changepassword.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,7 +31,13 @@ const router = createBrowserRouter([
   {
     path:"/Signup",
     element:<Signup/>
-  }
+  },
+  ,
+  {
+    path:"/Changepassword",
+    element:<Changepassword/>
+  },
+  
 
 
 ]);

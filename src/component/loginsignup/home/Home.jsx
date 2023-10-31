@@ -27,7 +27,7 @@ const Home = () => {
       <AppBar  position="relative">
         <Toolbar>
           <FaBars className="bar-icon" onClick={toggleDrawer} />
-          <div style={{ margin: "auto", fontSize: "30px" }}>HOME</div>
+          <div style={{ margin: "auto", fontSize: "30px"}}>HOME</div>
         </Toolbar>
       </AppBar>
 
@@ -62,14 +62,14 @@ const Home = () => {
                 </ListItem>
               </Link>
 
-              <Divider className="divider" />
+              <Divider />
               <Link to="/Signup" className="list-text">
               <ListItem>
                 <PersonAddAltIcon/>
                 <ListItemText className="list-text" primary="Signup" />
               </ListItem>
               </Link>
-              <Divider className="divider" />
+              <Divider/>
 
               <ListItem>
                 <InfoIcon/>
