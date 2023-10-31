@@ -1,0 +1,21 @@
+.task{
+    
+    background: linear-gradient(to right, #007BFF, #00BFFF);
+    width: 90%;
+    border-radius: 12px;
+    margin-bottom: 10%;
+  
+}
+.task-contents{
+   font-size: 110%;
+ margin-left: 40%;
+   color: #fff;
+}
+.h1-task{
+    color: rgb(102, 13, 13);
+    font: weight 1000px;
+    font-size: x-large;
+    padding-bottom: 3%;
+    text-decoration: underline;
+    
+}

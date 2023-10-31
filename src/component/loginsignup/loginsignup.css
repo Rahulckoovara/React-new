@@ -1,0 +1,267 @@
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+     margin-top: 5%;
+     background: linear-gradient(to right, #2c3e50, #3498db);
+     padding-bottom: 0px;
+    max-width: 700px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      max-width: 500px; /* Set a maximum width for the container */
+      padding: 0 20px;
+      overflow: hidden;
+      
+}
+
+@media only screen and (max-width: 500px)
+{
+  .container {
+ 
+ 
+    
+ width: 90%;
+ height: 10%;
+  
+}
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 9px;
+  width: 100%;
+  margin-top: 10%;
+  font-size: 30%;
+}
+.error {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+}
+.text {
+  color: #eae9ec;
+  font-size: 48px;
+  font-weight: 700;
+}
+.underline {
+  width: 20%;
+  height: 10px;
+
+  border-radius: 9px;
+  background-image: linear-gradient(
+    to right,
+    red,
+    blue,
+    green
+  ); /* Replace with your desired colors */
+  background-size: 100% 10px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+
+.inputs {
+  margin-top: 20%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40%;
+}
+.input {
+  padding-left: 5%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  background: #eaeaea;
+  border-radius: 2em;
+  margin-bottom: 5%;
+
+}
+.input input {
+  height: 3em;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 90%;
+  color: #797979;
+}
+.forgotpassword {
+  margin-top: 27px;
+  color: #fcf7f7;
+  font-size: 100%;
+  margin: 50px auto;
+}
+.fogotpassword-span {
+  color: #15f515;
+  cursor: pointer;
+}
+@media only screen and (max-width: 00px)
+{
+  .submit-container {
+   width: 50%;
+   
+  }
+}
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  font-size: 100%;
+  margin: 5% auto;
+}
+
+.submit:hover {
+  transform: scale(1.25);
+}
+.submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 6em;
+  height: 100%;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 50px;
+  font-size: 140%;
+  font-weight: 700;
+  cursor: pointer;
+}
+.gray {
+  background: #eaeaea;
+  color: #676767;
+}
+
+
+#Dashboard {
+  padding-top: 5%;
+  color: rgb(255, 255, 255);
+}
+button:hover {
+  opacity: 0.8;
+}
+.success-message {
+  background-color: #4caf50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px; /* Add some padding */
+  border-radius: 4px; /* Rounded corners */
+  text-align: center; /* Center text */
+  margin-top: 20px; 
+  /* Add some space between the message and other elements */
+}
+
+.text-forgot{
+  color: #eae9ec;
+  font-size: 48px;
+  font-weight: 700;
+}
+button.submit{
+  font-size: 150%;
+}
+.submit-forgot{
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #4c00b4;
+  margin: 70px auto;
+  border-radius:50px;
+  
+ 
+  width: 6em;
+  padding-top: 1%;
+  height: 100%;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 50px;
+  font-size: 140%;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+.forgot-msg{
+  display: flex;
+  flex-direction: column;
+  color: #eaeaea;
+  margin-left: 8%;
+}
+
+.main-dashboard{
+  height: 100%;
+  margin-top: 5%;
+  justify-content: space-between;
+
+}
+
+.task-container{
+   display: flex;
+    flex-direction: column;
+    
+     background-color: #a9d5f3;
+     width: 30%;
+  margin: 10px;
+  top: 10%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  align-items: center;
+  height: 80%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(21, 22, 22, 0.35) 0px -4px 8px 0px inset;
+}
+.search-dashboard{
+  width: 100%;
+  margin: 10px 0;
+ transition: border-color 0.3s; 
+  border: 1px solid #ccc;
+  margin-top: 3%;
+  margin-left: 6%;
+  width: 5px;
+}
+.search-dashboard input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+.h1-task{
+  color: white;
+  font-size: 120%;
+  
+}
+
+
+.search-input {
+  width: 70%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  margin-left: 11%;
+  margin-top: 2%;
+  height: 2em;
+  border-radius: 10px;
+  margin-bottom: -3%;
+ 
+}
+
+.inputs1{
+  margin-top: 13%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40%;
+}
+
+
+
